@@ -1,0 +1,28 @@
+h1{
+	font-family: Calibri;
+	font-size: 3.0rem;
+	padding-left: 400px; 
+	background-color: #F2CD7E;
+}
+p{
+	background-color: #F2CD7E;
+	padding: 20px;
+	margin: 100px;
+
+}
+body{
+	
+	font-family: Calibri;
+	background-image: url(flowers.jpg);
+}
+ul{
+	background-color: #F2CD7E;
+	padding: 10px;
+	margin: 200px;
+}
+h5{
+	font-family: Calibri;
+	font-size: 3.0rem;
+	padding-left: 400px; 
+	background-color: #F2CD7E;
+}

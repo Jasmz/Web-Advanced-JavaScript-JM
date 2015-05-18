@@ -1,0 +1,76 @@
+<!doctype HTML>
+<html>
+
+<head>
+	<title>Aphelion</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="p5.js"></script> <!-- not being used- but will be -->
+	<script src="main.js"></script>
+	<script src="jquery.mousewheel.js"></script>
+	<script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+
+</head>
+
+<body>
+
+<div id="page-wrap">
+
+  <div class="post">
+        <h2>Aphelion</h2>
+        <p class="story-0">A PC/Mac/Linux game made by the students of DT: <a href="http://shortieofcheese.com/">Danny Dang</a>, Keiji Kimura, and Jasmine Martinez. Softwares used to make the game were <a href="http://unity3d.com/">Unity</a>, CSharp language for scripting, as well as 3D modeling program <a href="http://www.autodesk.com/products/maya/overview">Maya</a>. Here's a little piece of how the story starts...</p>
+        <p class="picture7"></p>
+       </div>
+
+       <div class="post">
+        <h3>The Start of the Journey</h3>
+        <p class="story-1">This is the story of a wizardly father and his curious daughter.</p>
+        <p class="picture1"></p>
+       </div>
+
+
+    <div class="post">
+    <h3> The Separation</h3>
+      <p class="story-2">As they were one day together the little girl decided to wander off and encountered 
+      a faced mandrake that teleported her to some other realm separating her from her father.</p>
+      <p class="picture2"></p>
+     </div>
+
+    <div class="post">
+    <h3>Forest Wonders</h3>
+    <p class="story-3">The forest stands tall before her, colorful, as the girl looks around to find an exit back to her father.</p>
+        <p class="picture3"></p>
+     </div>
+
+      <div class="post">
+      <h3>The Wise One</h3>
+    <p class="story-4"> She finds a helpful owl that tells her tips on how to continue.</p>
+        <p class="picture4"></p>
+     </div>
+        <div class="post">
+      <h3>The recipe</h3>
+    <p class="story-5"> As she finds the ingredients, she puts the in the caulduron to hopefully transfrom into a frog, and cross the forest safely.</p>
+        <p class="picture5"></p>
+     </div>
+         <div class="post">
+        <p class="story-6"> To be continued...</p>
+        <p class="picture6"><a href="http://shortieofcheese.com/unity.html">Play the full version here.</a></p>
+     </div>
+
+
+
+
+ </div>
+
+</body>
+
+</html>

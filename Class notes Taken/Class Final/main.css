@@ -1,0 +1,122 @@
+* {
+	margin: 0; 
+	padding: 0; 
+}
+body { 
+	font-size: 14px; 
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+	background: #121212;
+	color: #999; 
+	padding: 20px;
+	width: 4200px;
+}
+tr { 
+	vertical-align: top;
+}
+.post { 
+   width: 500px;
+   height: 500px;
+   padding: 20px;
+   margin: 10px;
+   background: #63C279;
+   color: #fff;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #63C279, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
+
+}
+p { 
+	font-size: 1.2em; 
+	margin: 0 0 15px 0; 
+	text-align: center;
+}
+h1 { 
+	font-family: Sans-serif; 
+	font-size: 4.0em;
+	letter-spacing: -1px; 
+	color: #ccc; 
+}
+h3 { 
+	font-family: Sans-serif; 
+	font-size: 2.5em;
+	letter-spacing: -1px; 
+	color: #ccc; 
+	text-align: center;
+}
+h2{
+	font-family: Sans-serif; 
+	font-size: 3.0em;
+	letter-spacing: -1px; 
+	color: #ccc; 
+	text-align: center;
+}
+
+.picture1{
+background-repeat: no-repeat;
+background-image: url("aphelion_1.png");
+width: 500px;
+height: 500px;
+text-align: center;
+}
+
+.picture2{
+background-repeat: no-repeat;
+background-image: url("aphelion_4.png");
+width: 500px;
+height: 500px;
+text-align: center;
+}
+.picture3{
+background-repeat: no-repeat;
+background-image: url("aphelion_7.png");
+width: 500px;
+height: 500px;
+text-align: center;
+}
+.picture4{
+background-repeat: no-repeat;
+background-image: url("aphelion_12.png");
+width: 500px;
+height: 500px;
+text-align: center;
+}
+.picture5{
+background-repeat: no-repeat;
+background-image: url("frogmation.png");
+width: 500px;
+height: 500px;
+text-align: center;
+}
+.story-6 {
+font-size: 4.0em;
+position: relative;
+top: 200px;
+}
+.picture6 {
+position: relative;
+top: 250px;
+}
+
+.story-0{
+font-size: 1.2em;
+position: relative;
+top: 100px;
+}
+.picture7 {
+background-repeat: no-repeat;
+background-image: url("icon.PNG");
+position: absolute;
+top: 360px;
+left: 230px;
+text-align: center;
+width: 204px;
+height: 147px;
+}
+
+a:hover{
+	background-color: #608A6B;
+}
